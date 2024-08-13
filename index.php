@@ -13,7 +13,7 @@ if(isset($_POST['btnAdd']) )
 	 //$datas['branch'] = BRANCH;
 	 $datas['date_of_create'] = jk_mysql_datetime();
 		
-		$numbers	=	"8190006205";
+		$numbers	=	"6369865319";
 		@sendsms($numbers, $msgsub);
 
       $insertRoute = jk_insert_data(CABBOOKING,$datas);
