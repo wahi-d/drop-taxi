@@ -38,8 +38,8 @@ $msgsubb="Welcome To  DROP TAXI MADURAI, Thank you for your booking , please wai
 		$to      = $datas['mail'];
     	$subject = $submail;
 		$message = $msgsubb;
-		$headers = 'From: droptaximadurainc@gmail.com'       . "\r\n" .
-					 'Reply-To:droptaximadurainc@gmail.com' . "\r\n" .
+		$headers = 'From: wahiofficial18@gmail.com'       . "\r\n" .
+					 'Reply-To:wahiofficial18@gmail.com' . "\r\n" .
 					 'X-Mailer: PHP/' . phpversion();
 
     	mail($to, $subject, $message, $headers);
